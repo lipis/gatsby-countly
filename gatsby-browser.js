@@ -9,7 +9,7 @@ exports.onRouteUpdate = ({ location, prevLocation }) => {
       app_key: COUNTLY_API_KEY,
       debug: true,
       device_id: "12345",
-      url: "https://countly.wire.com",
+      url: "https://wire.count.ly",
     });
     countlyLoaded = true;
   }
